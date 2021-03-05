@@ -69,7 +69,6 @@ class FdClusterer(object):
             return "EMPTY HEADER: Error or uninitialized. Check call sequence."
         try:
             header_dict = self._leak_log_header["header"]
-            # pprint.pprint(header_dict)
             return header_dict
         except:
             print("Something went wrong getting the header dict...orz")
@@ -79,7 +78,6 @@ class FdClusterer(object):
             return "EMPTY HEADER: Error or uninitialized. Check call sequence."
         try:
             fd_list = self._leak_log_header["custom_long"]
-            # pprint.pprint(fd_list)
             return fd_list
         except:
             print("Something went wrong getting the fd list...orz")
@@ -115,18 +113,20 @@ class FdClusterer(object):
             "Map : hash -> stack" : self._stack_hash_mapping
         }
 
+    @NotImplemented
     def get_json_map(self, only_stack=True):
         return json.dumps(self.get_dictionary_map(only_stack))
 
 
 if __name__ == '__main__':
-    file_path = os.path.curdir + "/log/leak-r11s.log"
+    file_path = os.path.curdir + "/log/3-5-r11s-1.log"
     clusterer = FdClusterer(file_path)
-    clusterer.get_top_k_stack_hash(5)
+    clusterer.get_top_k_stack_hash(8)
     print("Printing Header Dict: ")
     pprint.pprint(clusterer.get_header())
-    print("Printing FD List: ")
-    pprint.pprint(clusterer.get_fd_list())
+    fd_list = clusterer.get_fd_list()
+    print(f"Printing FD List with length {len(fd_list['fdlist'])}: ")
+    pprint.pprint(fd_list)
     pprint.pprint(clusterer.get_dictionary_map(False))
 
 

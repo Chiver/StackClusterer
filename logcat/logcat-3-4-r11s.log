@@ -1,0 +1,952 @@
+2021-03-04 15:35:34.861 30804-30804/com.bytertc.rtc.rtcdemo I/FdTracker: Manual AccountAll
+2021-03-04 15:35:39.420 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: pre initJavaPublish
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: after initJavaPublish
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: before printAllLeak
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 1
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 64
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 2
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 79
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 3
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 80
+    #00 pc 00032644  /system/lib64/libjavacore.so
+    #01 pc 002390f8  /system/framework/arm64/boot-core-libart.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at libcore.io.Linux.socket(Native Method)
+        at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:308)
+        at libcore.io.IoBridge.socket(IoBridge.java:673)
+        at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+        at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+        at java.net.Socket.createImpl(Socket.java:484)
+        at java.net.Socket.getImpl(Socket.java:547)
+        at java.net.Socket.setSoTimeout(Socket.java:1175)
+        at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+        at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+        at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+        at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+        at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+        at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+    at com.android.okhttp.internal.http.HttpEngine.s
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 4
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 81
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 5
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 82
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 6
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 83
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 7
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 84
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 8
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 86
+    #00 pc 000273c4  /system/lib64/libc.so (open+0)
+    #01 pc 0002c2f8  /system/lib64/libsqlite.so
+    #02 pc 0001041c  /system/lib64/libsqlite.so
+    #03 pc 0002dc7c  /system/lib64/libsqlite.so
+    #04 pc 00025520  /system/lib64/libsqlite.so
+    #05 pc 000ec294  /system/lib64/libandroid_runtime.so
+    #06 pc 004fc4bc  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:194)
+        at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:493)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:200)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:192)
+        at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:864)
+        at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:849)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:724)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:714)
+        at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:295)
+        at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:238)
+    at com.bytedance.frameworks.basel
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 9
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 87
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 10
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 88
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 11
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 89
+    #00 pc 00032644  /system/lib64/libjavacore.so
+    #01 pc 002390f8  /system/framework/arm64/boot-core-libart.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at libcore.io.Linux.socket(Native Method)
+        at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:308)
+        at android.system.Os.socket(Os.java:541)
+        at android.net.LocalSocketImpl.create(LocalSocketImpl.java:257)
+        at android.net.LocalSocket.implCreateIfNeeded(LocalSocket.java:121)
+        at android.net.LocalSocket.connect(LocalSocket.java:144)
+        at com.qti.tcmclient.DpmTcmClient$TcmReceiver.run(DpmTcmClient.java:106)
+        at java.lang.Thread.run(Thread.java:764)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 12
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 90
+    #00 pc 00032644  /system/lib64/libjavacore.so
+    #01 pc 002390f8  /system/framework/arm64/boot-core-libart.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at libcore.io.Linux.socket(Native Method)
+        at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:308)
+        at libcore.io.IoBridge.socket(IoBridge.java:673)
+        at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+        at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+        at java.net.Socket.createImpl(Socket.java:484)
+        at java.net.Socket.getImpl(Socket.java:547)
+        at java.net.Socket.setSoTimeout(Socket.java:1175)
+        at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+        at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+        at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+        at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+        at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+        at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+    at com.android.okhttp.internal.http.HttpEngine.s
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 13
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace (null)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.bytedance.monitor.collector.ProcMonitor.doGetCpuTime(Native Method)
+        at com.bytedance.monitor.collector.ProcMonitor.getCpuTime(ProcMonitor.java:136)
+        at com.bytedance.monitor.collector.DispatchMonitor.mainThreadTimeMillsInner(DispatchMonitor.java:702)
+        at com.bytedance.monitor.collector.DispatchMonitor.access$600(DispatchMonitor.java:31)
+        at com.bytedance.monitor.collector.DispatchMonitor$2.run(DispatchMonitor.java:844)
+        at com.bytedance.monitor.util.thread.AsyncTaskUtil$1.run(AsyncTaskUtil.java:56)
+        at com.bytedance.monitor.util.thread.inner.ApmInnerHandlerThread$2.run(ApmInnerHandlerThread.java:218)
+        at android.os.Handler.handleCallback(Handler.java:790)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:197)
+        at com.bytedance.monitor.util.thread.inner.ApmInnerHandlerThread.onLooperPrepared(ApmInnerHandlerThread.java:51)
+        at android.os.HandlerThread.run(HandlerThread.java:64)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 14
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 92
+    #00 pc 0011ce4c  /system/lib64/libandroid_runtime.so
+    #01 pc 004eaadc  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.os.Parcel.nativeReadFileDescriptor(Native Method)
+        at android.os.Parcel.readRawFileDescriptor(Parcel.java:2127)
+        at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:1040)
+        at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:1037)
+        at android.os.Parcel.readParcelable(Parcel.java:2876)
+        at android.util.MemoryIntArray.<init>(MemoryIntArray.java:81)
+        at android.util.MemoryIntArray.<init>(Unknown Source:0)
+        at android.util.MemoryIntArray$1.createFromParcel(MemoryIntArray.java:246)
+        at android.util.MemoryIntArray$1.createFromParcel(MemoryIntArray.java:243)
+        at android.os.Parcel.readParcelable(Parcel.java:2876)
+        at android.os.Parcel.readValue(Parcel.java:2770)
+        at android.os.Parcel.readArrayMapInternal(Parcel.java:3139)
+        at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:273)
+        at android.os.BaseBundle.unparcel(BaseBundle.java:226)
+        at android.os.BaseBundle.getString(BaseBundle.java:1124)
+    at android.provider.Settings$NameValueCache.getS
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 15
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 93
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 16
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 94
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 17
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 95
+    #00 pc 000273c4  /system/lib64/libc.so (open+0)
+    #01 pc 0000d24c  /system/lib64/libc.so (fopen+0)
+    #02 pc 00007180  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 000058a8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00005014  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so (Java_com_ss_android_agilelogger_AgileDelegate_write+0)
+    #05 pc 0000d314  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/oat/arm64/base.odex (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.ss.android.agilelogger.AgileDelegate.write(Native Method)
+        at com.ss.android.agilelogger.AgileDelegate.write(AgileDelegate.java:45)
+        at com.ss.android.agilelogger.logger.AgileLogger.appendMsg(AgileLogger.java:49)
+        at com.ss.android.agilelogger.logger.BaseLogger.handleMsg(BaseLogger.java:73)
+        at com.ss.android.agilelogger.logger.BaseLogger.append(BaseLogger.java:58)
+        at com.ss.android.agilelogger.printer.ALogPrinter.println(ALogPrinter.java:57)
+        at com.ss.android.agilelogger.AlogThread.handleMsgWrite(AlogThread.java:280)
+        at com.ss.android.agilelogger.AlogThread.handleMessage(AlogThread.java:348)
+        at com.ss.android.agilelogger.AlogThread.run(AlogThread.java:223)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 18
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 96
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 19
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 97
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 20
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 98
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 21
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 99
+    #00 pc 00032644  /system/lib64/libjavacore.so
+    #01 pc 002390f8  /system/framework/arm64/boot-core-libart.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at libcore.io.Linux.socket(Native Method)
+        at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:308)
+        at libcore.io.IoBridge.socket(IoBridge.java:673)
+        at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+        at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+        at java.net.Socket.createImpl(Socket.java:484)
+        at java.net.Socket.getImpl(Socket.java:547)
+        at java.net.Socket.setSoTimeout(Socket.java:1175)
+        at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+        at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+        at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+        at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+        at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+        at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+    at com.android.okhttp.internal.http.HttpEngine.s
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 22
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 100
+    #00 pc 00000b10  /system/lib64/libSeemplog.so
+    #01 pc 00000a00  /system/lib64/libSeemplog.so
+    #02 pc 00000994  /system/lib64/libSeemplog.so (seemp_log_record+0)
+    #03 pc 0004735c   /system/lib64/libaudioclient.so (android::AudioRecord::start(android::AudioSystem::sync_event_t, audio_session_t)+144)
+    #04 pc 001544c8  /system/lib64/libandroid_runtime.so
+    #05 pc 00674b20  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.media.AudioRecord.native_start(Native Method)
+        at android.media.AudioRecord.startRecording(AudioRecord.java:993)
+        at com.bytedance.bae.webrtc.WebRtcAudioRecord.startRecording(WebRtcAudioRecord.java:300)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 23
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 101
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 24
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 102
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 25
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace (null)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.bytedance.osfix.fdleak.bridge.FdJniBridge.getFdDumpList(Native Method)
+        at com.bytedance.osfix.fdleak.bridge.FdJniBridge.getFdDumpList(FdJniBridge.java:94)
+        at com.ss.video.rtc.demo.ui.login.LoginActivity$4$1.run(LoginActivity.java:394)
+        at java.lang.Thread.run(Thread.java:764)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 26
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace (null)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.bytedance.crash.util.NativeTools.nativeGetThreadCpuTimeMills(Native Method)
+        at com.bytedance.crash.util.NativeTools.getThreadCpuTimeMills(NativeTools.java:340)
+        at com.bytedance.crash.anr.LooperMonitor.mainThreadTimeMillsInner(LooperMonitor.java:507)
+        at com.bytedance.crash.anr.LooperMonitor.access$1600(LooperMonitor.java:50)
+        at com.bytedance.crash.anr.LooperMonitor$4$1.run(LooperMonitor.java:345)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 27
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 105
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 28
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 106
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 29
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 107
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 30
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 108
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 31
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 109
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 32
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 110
+    #00 pc 000273c4  /system/lib64/libc.so (open+0)
+    #01 pc 00004b70  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libnpth_tools.so
+    #02 pc 0000ab3c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/oat/arm64/base.odex (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.bytedance.crash.util.NativeTools.nativeGetThreadCpuTimeMills(Native Method)
+        at com.bytedance.crash.util.NativeTools.getThreadCpuTimeMills(NativeTools.java:340)
+        at com.bytedance.crash.anr.LooperMonitor.mainThreadTimeMillsInner(LooperMonitor.java:507)
+        at com.bytedance.crash.anr.LooperMonitor.access$1600(LooperMonitor.java:50)
+        at com.bytedance.crash.anr.LooperMonitor$4$1.run(LooperMonitor.java:345)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 33
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 111
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 34
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 112
+    #00 pc 0000b408  /system/lib64/libcutils.so
+    #01 pc 0000b0b4  /system/lib64/libcutils.so (ashmem_create_region+0)
+    #02 pc 00397aec   /system/lib64/libart.so (art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, bool)+288)
+    #03 pc 002623cc   /system/lib64/libart.so (art::IndirectReferenceTable::IndirectReferenceTable(unsigned long, art::IndirectRefKind, art::IndirectReferenceTable::ResizableCapacity, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+144)
+    #04 pc 00319160   /system/lib64/libart.so (art::JNIEnvExt::JNIEnvExt(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+56)
+    #05 pc 00319084   /system/lib64/libart.so (art::JNIEnvExt::Create(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_tr
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at java.lang.Thread.nativeCreate(Native Method)
+        at java.lang.Thread.start(Thread.java:733)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:170)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+        at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2524)
+    at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 35
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 113
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 36
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 114
+    #00 pc 001a4638  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #01 pc 001a2388  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #02 pc 001935e8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #03 pc 00192fa0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #04 pc 00193398  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #05 pc 00070f54  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #06 pc 0006f078  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #07 pc 0018e174  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #08 pc 001931c0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #09 pc 0018d8e8  /data/app/com.b
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 37
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 115
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 38
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 116
+    #00 pc 0000b408  /system/lib64/libcutils.so
+    #01 pc 0000b0b4  /system/lib64/libcutils.so (ashmem_create_region+0)
+    #02 pc 00397aec   /system/lib64/libart.so (art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, bool)+288)
+    #03 pc 002623cc   /system/lib64/libart.so (art::IndirectReferenceTable::IndirectReferenceTable(unsigned long, art::IndirectRefKind, art::IndirectReferenceTable::ResizableCapacity, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+144)
+    #04 pc 00319160   /system/lib64/libart.so (art::JNIEnvExt::JNIEnvExt(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+56)
+    #05 pc 00319084   /system/lib64/libart.so (art::JNIEnvExt::Create(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_tr
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at java.lang.Thread.nativeCreate(Native Method)
+        at java.lang.Thread.start(Thread.java:733)
+        at android.os.GraphicsEnvironment.earlyInitEGL(GraphicsEnvironment.java:111)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3049)
+        at android.app.ActivityThread.-wrap11(Unknown Source:0)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1772)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 39
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 117
+    #00 pc 0000b408  /system/lib64/libcutils.so
+    #01 pc 0000b0b4  /system/lib64/libcutils.so (ashmem_create_region+0)
+    #02 pc 00397aec   /system/lib64/libart.so (art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, bool)+288)
+    #03 pc 002623cc   /system/lib64/libart.so (art::IndirectReferenceTable::IndirectReferenceTable(unsigned long, art::IndirectRefKind, art::IndirectReferenceTable::ResizableCapacity, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+144)
+    #04 pc 00319160   /system/lib64/libart.so (art::JNIEnvExt::JNIEnvExt(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+56)
+    #05 pc 00319084   /system/lib64/libart.so (art::JNIEnvExt::Create(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_tr
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at java.lang.Thread.nativeCreate(Native Method)
+        at java.lang.Thread.start(Thread.java:733)
+        at com.ss.video.rtc.engine.adapter.VideoSinkTask.init(VideoSinkTask.java:19)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:171)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+    at android.view.ViewRootImpl.performTraversals(ViewRoo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 40
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 119
+    #00 pc 0000b408  /system/lib64/libcutils.so
+    #01 pc 0000b0b4  /system/lib64/libcutils.so (ashmem_create_region+0)
+    #02 pc 00397aec   /system/lib64/libart.so (art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, bool)+288)
+    #03 pc 002623cc   /system/lib64/libart.so (art::IndirectReferenceTable::IndirectReferenceTable(unsigned long, art::IndirectRefKind, art::IndirectReferenceTable::ResizableCapacity, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+144)
+    #04 pc 00319160   /system/lib64/libart.so (art::JNIEnvExt::JNIEnvExt(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+56)
+    #05 pc 00319084   /system/lib64/libart.so (art::JNIEnvExt::Create(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_tr
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at java.lang.Thread.nativeCreate(Native Method)
+        at java.lang.Thread.start(Thread.java:733)
+        at com.ss.video.rtc.engine.utils.VideoFrameConverter.<init>(VideoFrameConverter.java:40)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:185)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+    at android.view.ViewRootImpl.performTraver
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 41
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 121
+    #00 pc 0000b408  /system/lib64/libcutils.so
+    #01 pc 0000b0b4  /system/lib64/libcutils.so (ashmem_create_region+0)
+    #02 pc 00397aec   /system/lib64/libart.so (art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, bool)+288)
+    #03 pc 002623cc   /system/lib64/libart.so (art::IndirectReferenceTable::IndirectReferenceTable(unsigned long, art::IndirectRefKind, art::IndirectReferenceTable::ResizableCapacity, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+144)
+    #04 pc 00319160   /system/lib64/libart.so (art::JNIEnvExt::JNIEnvExt(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)+56)
+    #05 pc 00319084   /system/lib64/libart.so (art::JNIEnvExt::Create(art::Thread*, art::JavaVMExt*, std::__1::basic_string<char, std::__1::char_tr
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at java.lang.Thread.nativeCreate(Native Method)
+        at java.lang.Thread.start(Thread.java:733)
+        at com.ss.video.rtc.engine.utils.VideoFrameConverter.<init>(VideoFrameConverter.java:40)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:186)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+    at android.view.ViewRootImpl.performTraver
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 42
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 124
+    #00 pc 00e5aa50  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 00e58034  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 00e57f20  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 00e54aec  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 00e05908  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 0019cbb4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 0019e52c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 000c2944  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 000d1b68  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 0019c140  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.ss.video.rtc.engine.NativeFunctions.nativeCreateByteRtcEngine(Native Method)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:195)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+        at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2524)
+        at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1612)
+    at
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 43
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 125
+    #00 pc 00e5aa50  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 00e58034  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 00e57f20  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 00e54aec  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 00e05908  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 0019cbb4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 0019e52c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 000c2944  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 000d1b68  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 0019c140  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.ss.video.rtc.engine.NativeFunctions.nativeCreateByteRtcEngine(Native Method)
+        at com.ss.video.rtc.engine.RtcEngineImpl.RtcEngineImpl.<init>(RtcEngineImpl.java:195)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:786)
+        at com.ss.video.rtc.engine.RtcEngine.create(RtcEngine.java:676)
+        at com.ss.video.rtc.demo.Base.ByteEngineWrapper.<init>(ByteEngineWrapper.java:70)
+        at com.ss.video.rtc.demo.Base.BaseEngineFactory.create(BaseEngineFactory.java:37)
+        at com.ss.video.rtc.demo.model.engine.EngineModel.createEngine(EngineModel.java:106)
+        at com.ss.video.rtc.demo.presenter.EnginePresenter.createEngine(EnginePresenter.java:107)
+        at com.ss.video.rtc.demo.ui.chat.ChatActivity.init(ChatActivity.java:188)
+        at com.ss.video.rtc.demo.ui.BaseActivity$1.onGlobalLayout(BaseActivity.java:42)
+        at android.view.ViewTreeObserver.dispatchOnGlobalLayout(ViewTreeObserver.java:945)
+        at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2524)
+        at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1612)
+    at
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 44
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 126
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 45
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 127
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 46
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 128
+    #00 pc 00e54e68  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 00e5705c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 00e5846c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 00d1e2c8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 00d86094  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 00d83a28  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 00d84b94  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 00d849d8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 00d84e04  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 00de4254  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 47
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 129
+    #00 pc 0000ceb0  /system/lib64/vndk-sp/libcutils.so
+    #01 pc 00075fa0  /system/lib64/libc.so (pthread_once+0)
+    #02 pc 00006ea0   /vendor/lib64/hw/gralloc.sdm660.so (gralloc1::IonAlloc::FreeBuffer(void*, unsigned int, unsigned int, int, int)+244)
+    #03 pc 00008fa4   /vendor/lib64/hw/gralloc.sdm660.so (gralloc1::BufferManager::FreeBuffer(std::__1::shared_ptr<gralloc1::BufferManager::Buffer>)+108)
+    #04 pc 000094c4   /vendor/lib64/hw/gralloc.sdm660.so (gralloc1::BufferManager::ReleaseBuffer(private_handle_t const*)+292)
+    #05 pc 00006580   /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (android::hardware::graphics::mapper::V2_0::implementation::GrallocMapper::freeBuffer(void*)+164)
+    #06 pc 00018bf0  /system/lib64/android.hardware.graphics.mapper@2.0.so
+    #07 pc 00015d98   /system/lib64/libui.so (android::Gralloc2::Mapper::freeBuffer(native_handle const*) const+52)
+    #08 pc 00019b9c   /system/lib64/libui.so (android::GraphicBufferMapper::f
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 48
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 130
+    #00 pc 0114bf54  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 005ebd18  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 003a9ee0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 003a840c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 003a7b38  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 0031dcac  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 00339678  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 0033963c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 003395f0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 003395c8  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 49
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 131
+    #00 pc 0114bf54  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 005ebd18  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 003a80d0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 003a7b38  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 0031dcac  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 00339678  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 0033963c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 003395f0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 003395c8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 003383a0  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 50
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 132
+    #00 pc 001a4638  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #01 pc 001a2388  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #02 pc 001935e8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #03 pc 00192fa0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #04 pc 00193398  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #05 pc 00070f54  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #06 pc 0006f078  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #07 pc 0018e174  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #08 pc 001931c0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #09 pc 0018d8e8  /data/app/com.b
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 51
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 133
+    #00 pc 004ee4a8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #01 pc 004ee268  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #02 pc 004edfc4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #03 pc 004eda70  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #04 pc 004ed688  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #05 pc 004ea568  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #06 pc 004dd4b0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 004e85f4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 004e8458  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 004e8358  /data/app/com.bytertc.rtc.rtcdemo
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 52
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 134
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 53
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 135
+    #00 pc 001a4638  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #01 pc 001a2388  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #02 pc 001935e8  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #03 pc 00192fa0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #04 pc 00193398  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #05 pc 0006bddc  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbyteaudio.so
+    #06 pc 006717e4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #07 pc 0027d214  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #08 pc 002e8920  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libbytertc.so
+    #09 pc 002c4f1c  /data/app/com.bytertc
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 54
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 136
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.421 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 55
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 137
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 56
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 138
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 57
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 139
+    #00 pc 0009bf64   /system/lib64/libgui.so (android::Surface::dequeueBuffer(ANativeWindowBuffer**, int*)+852)
+    #01 pc 0000d6ec   /vendor/lib64/egl/eglSubDriverAndroid.so (EglAndroidWindowSurface::DequeueBuffer()+340)
+    #02 pc 0000ce40   /vendor/lib64/egl/eglSubDriverAndroid.so (EglAndroidWindowSurface::GetBuffer(EglSubResource*, EglMemoryDesc*)+68)
+    #03 pc 001f0650   /vendor/lib64/egl/libGLESv2_adreno.so (EglWindowSurface::UpdateResource(EsxContext*)+292)
+    #04 pc 001efdbc   /vendor/lib64/egl/libGLESv2_adreno.so (EglWindowSurface::GetResource(EsxContext*, EsxResource**, EsxResource**, int)+60)
+    #05 pc 001edfa8   /vendor/lib64/egl/libGLESv2_adreno.so (EglSurface::UpdateAuxResource(EsxContext*, EglSurface::EglAuxResource, int, EsxResource**)+128)
+    #06 pc 0010103c   /vendor/lib64/egl/libGLESv2_adreno.so (EsxContext::AcquireBackBuffer(int)+332)
+    #07 pc 00101cec   /vendor/lib64/egl/libGLESv2_adreno.so (EsxContext::Clear(unsigned int, unsigned int, uns
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 58
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 140
+    #00 pc 000200a4  /system/lib64/libc.so (opendir+0)
+    #01 pc 000062b4  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #02 pc 00005ed0  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #03 pc 0000de34  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libalog-lib.so
+    #04 pc 00074d78  /system/lib64/libc.so
+    #05 pc 0001fce8  /system/lib64/libc.so
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 59
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace (null)
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at com.bytedance.osfix.fdleak.bridge.FdJniBridge.getFdDumpList(Native Method)
+        at com.bytedance.osfix.fdleak.bridge.FdJniBridge.getFdDumpList(FdJniBridge.java:94)
+        at com.ss.video.rtc.demo.ui.login.LoginActivity$4$1.run(LoginActivity.java:394)
+        at java.lang.Thread.run(Thread.java:764)
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 60
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 142
+    #00 pc 000071ac  /system/lib64/vndk-sp/libcutils.so (native_handle_clone+0)
+    #01 pc 000060f8   /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (android::hardware::graphics::mapper::V2_0::implementation::GrallocMapper::importBuffer(android::hardware::hidl_handle const&, std::__1::function<void (android::hardware::graphics::mapper::V2_0::Error, void*)>)+84)
+    #02 pc 00018aac  /system/lib64/android.hardware.graphics.mapper@2.0.so
+    #03 pc 00015ce8   /system/lib64/libui.so (android::Gralloc2::Mapper::importBuffer(android::hardware::hidl_handle const&, native_handle const**) const+92)
+    #04 pc 00019ab8   /system/lib64/libui.so (android::GraphicBufferMapper::importBuffer(native_handle const*, native_handle const**)+112)
+    #05 pc 000182dc   /system/lib64/libui.so (android::GraphicBuffer::unflatten(void const*&, unsigned long&, int const*&, unsigned long&)+616)
+    #06 pc 001414a4  /system/lib64/libandroid_runtime.so
+    #07 pc 00075e44   /system/
+2021-03-04 15:35:39.422 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 299
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 300
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.opengl.GLES20.glClear(Native Method)
+        at org.webrtc.HardwareVideoEncoder.encodeTextureBuffer(HardwareVideoEncoder.java:393)
+        at org.webrtc.HardwareVideoEncoder.encode(HardwareVideoEncoder.java:375)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 227
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.427 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 241
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 242
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 245
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 327
+    #00 pc 000071ac  /system/lib64/vndk-sp/libcutils.so (native_handle_clone+0)
+    #01 pc 000060f8   /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (android::hardware::graphics::mapper::V2_0::implementation::GrallocMapper::importBuffer(android::hardware::hidl_handle const&, std::__1::function<void (android::hardware::graphics::mapper::V2_0::Error, void*)>)+84)
+    #02 pc 00018aac  /system/lib64/android.hardware.graphics.mapper@2.0.so
+    #03 pc 00016d40  /system/lib64/libui.so
+    #04 pc 0000dfb8   /system/lib64/android.hardware.graphics.allocator@2.0.so (android::hardware::graphics::allocator::V2_0::BpHwAllocator::_hidl_allocate(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_vec<unsigned int> const&, unsigned int, std::__1::function<void (android::hardware::graphics::mapper::V2_0::Error, unsigned int, android::hardware::hidl_vec<android::hardware::hidl_handle> const&)>)+744)
+    #05 pc 00
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 330
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.opengl.GLES20.glClear(Native Method)
+        at org.webrtc.HardwareVideoEncoder.encodeTextureBuffer(HardwareVideoEncoder.java:393)
+        at org.webrtc.HardwareVideoEncoder.encode(HardwareVideoEncoder.java:375)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 340
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: total 292 , now num 268
+2021-03-04 15:35:39.428 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: java_trace at android.view.InputChannel.nativeReadFromParcel(Native Method)
+        at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+        at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:814)
+        at android.view.ViewRootImpl.setView(ViewRootImpl.java:870)
+        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:384)
+        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:94)
+        at android.widget.Toast$TN.handleShow(Toast.java:555)
+        at android.widget.Toast$TN$1.handleMessage(Toast.java:448)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:197)
+        at android.app.ActivityThread.main(ActivityThread.java:7022)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:515)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:837)
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 360
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 363
+    #00 pc 000f2350  /system/lib64/libandroid_runtime.so
+    #01 pc 000c991c  /system/framework/arm64/boot-framework.oat (oatexec+0)
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 366
+    #00 pc 000273c4  /system/lib64/libc.so (open+0)
+    #01 pc 00008f94   /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/lib/arm64/libmonitorcollector-lib.so (doGetCpuTime(_JNIEnv*, _jclass*, int)+92)
+    #02 pc 0002a66c  /data/app/com.bytertc.rtc.rtcdemo-9KL6uyXK2hgdtT17598OfQ==/oat/arm64/base.odex (oatexec+0)
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 370
+    #00 pc 000071ac  /system/lib64/vndk-sp/libcutils.so (native_handle_clone+0)
+    #01 pc 000060f8   /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (android::hardware::graphics::mapper::V2_0::implementation::GrallocMapper::importBuffer(android::hardware::hidl_handle const&, std::__1::function<void (android::hardware::graphics::mapper::V2_0::Error, void*)>)+84)
+    #02 pc 00018aac  /system/lib64/android.hardware.graphics.mapper@2.0.so
+    #03 pc 00015ce8   /system/lib64/libui.so (android::Gralloc2::Mapper::importBuffer(android::hardware::hidl_handle const&, native_handle const**) const+92)
+    #04 pc 00019ab8   /system/lib64/libui.so (android::GraphicBufferMapper::importBuffer(native_handle const*, native_handle const**)+112)
+    #05 pc 000182dc   /system/lib64/libui.so (android::GraphicBuffer::unflatten(void const*&, unsigned long&, int const*&, unsigned long&)+616)
+    #06 pc 001414a4  /system/lib64/libandroid_runtime.so
+    #07 pc 00075e44   /system/
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: native_trace Signal 6(FDLEAK), Code -6(SI_TKILL) leakCount 1 fdindex 373
+    #00 pc 000071ac  /system/lib64/vndk-sp/libcutils.so (native_handle_clone+0)
+    #01 pc 000060f8   /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so (android::hardware::graphics::mapper::V2_0::implementation::GrallocMapper::importBuffer(android::hardware::hidl_handle const&, std::__1::function<void (android::hardware::graphics::mapper::V2_0::Error, void*)>)+84)
+    #02 pc 00018aac  /system/lib64/android.hardware.graphics.mapper@2.0.so
+    #03 pc 00015ce8   /system/lib64/libui.so (android::Gralloc2::Mapper::importBuffer(android::hardware::hidl_handle const&, native_handle const**) const+92)
+    #04 pc 00019ab8   /system/lib64/libui.so (android::GraphicBufferMapper::importBuffer(native_handle const*, native_handle const**)+112)
+    #05 pc 000182dc   /system/lib64/libui.so (android::GraphicBuffer::unflatten(void const*&, unsigned long&, int const*&, unsigned long&)+616)
+    #06 pc 001414a4  /system/lib64/libandroid_runtime.so
+    #07 pc 00075e44   /system/
+2021-03-04 15:35:39.429 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_trace is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_tombstone is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_trace is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_tombstone is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_trace is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_tombstone is null，stop
+2021-03-04 15:35:39.430 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.431 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.431 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_trace is null，stop
+2021-03-04 15:35:39.431 30804-20265/com.bytertc.rtc.rtcdemo W/FdTrackerManager: it->second->native_tombstone is null，stop
+2021-03-04 15:35:39.431 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
+2021-03-04 15:35:39.434 30804-20265/com.bytertc.rtc.rtcdemo D/FdTrackerManager: leakCount 0
